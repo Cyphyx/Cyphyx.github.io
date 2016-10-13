@@ -46,3 +46,25 @@ h1 {
 .day {
   width: 18%;
 }
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 2px solid #ffffff;
+	background: #e6e6e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.menu li {
+	display: inline-flex;;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #666699;
+	font-weight: bold;
+	text-transform: uppercase;
+}
