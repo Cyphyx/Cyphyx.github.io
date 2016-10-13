@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+body {
+color: #444444;
+font-family: "Lucida Console", Arial, sans-serif;
+margin: 0px;
+padding: 0px;
+background-color: #e6ffe6;
+}
+
+#thankYou {
+  font-size: 26px;
+  text-align: center;
+  padding-top: 190px;
+  color: #ac3939;
+}
+
+#link {
+  font-size: 24px;
+  text-align: center;
+  color: #ac3939;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 2px solid #ffffff;
+	background: #e6e6e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.menu li {
+	display: inline-flex;;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #666699;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#footer {
+  text-align: center;
+  color: #00ace6;
+  padding-bottom: 50px;
+}
+a {
+  text-decoration: underline;
+  color: #ac3939;
+}
+a:hover {
+  color: blue;
+  text-shadow: 1px 1px #666699;
+}
+
+
+
+body ul li a {
+  display: block;
+  text-align: center;
+  width: 70px;
+  height: 60px;
+  border: 1px;
+  box-sizing: border-box;
+}
+
+.menuText {
+  padding-top: 20px;
+
+}
+
+#active {
+  background-color: #8c8c8c;
+}

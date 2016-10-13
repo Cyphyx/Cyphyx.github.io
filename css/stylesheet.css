@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+
+.title {
+  color: white;
+  font-weight: bold;
+  font-size: 55px;
+  margin-bottom: 150px;
+  font-family: 'Maven Pro', sans-serif;
+
+}
+#botTitle {
+  padding-bottom: 50px;
+  color: #ac3939;
+}
+  body {
+	color: #444444;
+	font-family: "Lucida Console", Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+  background-color: #e6ffe6;
+}
+.rood {
+  color:red;
+}
+
+#blauw {
+  color:blue;
+}
+#color2 {
+  color:black;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 2px solid #ffffff;
+	background: #e6e6e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.menu li {
+	display: inline-flex;;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #666699;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#colorText {
+  color:#1aff66;
+}
+
+#italicText {
+  font-style: italic;
+}
+
+p {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 20px;
+  color: #ac3939;
+  line-height: 2.1;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.topText {
+  font-family: 'Bree Serif', serif;
+  color: #00ace6;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  line-height: 1.8;
+}
+section.header {
+	background: url('../images/wallpaper.jpg');
+	background-attachment: fixed;
+	color: #333333;
+	text-shadow: 1px 1px rgba(88, 88, 88, 0.25);
+	text-align: center;
+	padding-top: 300px;
+	min-height: 100px;
+}
+#footer {
+  text-align: center;
+  color: #00ace6;
+}
+a {
+  text-decoration: underline;
+  color: #ac3939;
+}
+a:hover {
+  color: blue;
+  text-shadow: 1px 1px #666699;
+}
+
+
+
+body ul li a {
+  display: block;
+  text-align: center;
+  width: 70px;
+  height: 60px;
+  border: 1px;
+  box-sizing: border-box;
+}
+
+.menuText {
+  padding-top: 20px;
+
+}
+
+#active {
+  background-color: #8c8c8c;
+}
