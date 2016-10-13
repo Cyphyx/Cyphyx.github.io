@@ -1,0 +1,45 @@
+th {
+  font-size: 16px;
+  font-family: "Lucida Console", Arial, sans-serif;
+  height: 50px;
+  background-color: #3377ff;
+  color: white;
+}
+
+td {
+  font-size: 16px;
+  font-family: "Lucida Console", Arial, sans-serif;
+  height: 40px;
+  background-color: #b3ccff;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 50px;
+}
+
+table, th, td {
+  border: 1px solid #e0e0d1;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#Uur {
+  color: black;
+}
+
+.noles {
+  background-color: white;
+}
+
+.time {
+  background-color: white;
+}
+
+.day {
+  width: 18%;
+}
