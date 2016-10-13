@@ -68,3 +68,7 @@ h1 {
 	font-weight: bold;
 	text-transform: uppercase;
 }
+
+#active {
+  background-color: #8c8c8c;
+}
