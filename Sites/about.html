@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="author" content="Joshua Rhee">
+  <meta name="description" content="themaweek 4 - Tesla Auto">
+  <meta name="keywords" content="themaweek 4">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+			function toggle() {
+				var x = document.getElementById("normalNav");
+				var t = document.getElementById("myIcon");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+					t.className = "icon open";
+
+				} else {
+					x.className = "topnav";
+					t.className = "icon close";
+				}
+			}
+			</script>
+
+  <title>Tesla Model S - About</title>
+
+  <link rel="stylesheet" type="text/css" href="aboutstyle.css">
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="icon close" id="myIcon">
+			<a href="#" onclick="toggle()">&#9776;</a>
+			</div>
+
+    <ul class="menu topnav" id="normalNav">
+      <li><a href="../index.html" class="menuText">Home</a></li>
+      <li><a href="about.html" class="menuText" id="active">About</a></li>
+      <li><a href="contact.html" class="menuText">Contact</a></li>
+      <li><a href="order.html" class="menuText">Buy</a></li>
+      <li id="menuLi"><a id="loginMenu" href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <p> The Tesla Model S is designed from the ground up to be the safest, most exhilarating sedan on the road. With unparalleled performance delivered through Tesla's unique, all-electric powertrain, Model S accelerates from 0 to 60 mph in as little as 2.5 seconds. Model S comes with Autopilot capabilities designed to make your highway driving not only safer, but stress free.
+    </p>
+    <h2>Adaptive Lighting</h2>
+    <img src="https://i.gyazo.com/bbb36cc92e555928cdf9bf5537b79fe8.png" class="artImg"/>
+    <p class="infoTxt">Model S now features full LED adaptive headlamps. Besides enhancing the already great styling, they also boost safety: 14 three-position LED dynamic turning lights improve visibility at night, especially on winding roads.
+    </p>
+    <h2>Bio-Weapon Defense Mode</h2>
+    <img src="https://i.gyazo.com/168f5e38ea834ef065deef596a60fac5.png" class="artImg"/>
+    <p class="infoTxt">Model S now features a Medical grade HEPA air filtration system, which removes at least 99.97% of particulate exhaust pollution and effectively all allergens, bacteria and other contaminants from cabin air. The bioweapon defense mode creates positive pressure inside the cabin to protect occupants.
+    </p>
+    <h2> Safety</h2>
+    <p class="infoTxt">Model S is designed from the ground up to be the safest car on the road. Much of its safety is owed to the unique electric drivetrain that sits beneath the car's aluminum occupant cell in its own subframe. This unique positioning lowers the car's center of gravity, which improves handling and minimizes rollover risk, and replaces the heavy engine block with impact absorbing boron steel rails.
+    </p>
+    <p class="infoTxt">Side impacts are met by aluminum pillars reinforced with steel rails to reduce intrusion, protecting occupants and the battery pack while improving roof stiffness. In the event of an accident, eight airbags protect front and rear occupants, and the high voltage power source is automatically disconnected.
+    </p>
+  </article>
+
+</body>
+</html>

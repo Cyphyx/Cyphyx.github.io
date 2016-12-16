@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="author" content="Joshua Rhee">
+  <meta name="description" content="themaweek 4 - Tesla Auto">
+  <meta name="keywords" content="themaweek 4">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script>
+			function toggle() {
+				var x = document.getElementById("normalNav");
+				var t = document.getElementById("myIcon");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+					t.className = "icon open";
+
+				} else {
+					x.className = "topnav";
+					t.className = "icon close";
+				}
+			}
+			</script>
+
+  <title>Tesla Model S - Contact</title>
+
+  <link rel="stylesheet" type="text/css" href="contactstyle.css">
+
+</head>
+
+<body>
+
+  <nav>
+    <div class="icon close" id="myIcon">
+			<a href="#" onclick="toggle()">&#9776;</a>
+			</div>
+
+    <ul class="menu topnav" id="normalNav">
+      <li><a href="../index.html" class="menuText">Home</a></li>
+      <li><a href="about.html" class="menuText">About</a></li>
+      <li><a href="contact.html" class="menuText" id="active">Contact</a></li>
+      <li><a href="order.html" class="menuText">Buy</a></li>
+      <li id="menuLi"><a id="loginMenu" href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <article class="form">
+
+    <div id="contact-area">
+
+      <form method="post" action="thanks.html">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name" />
+
+        <label for="Email">Email:</label>
+        <input type="text" name="Email" id="Email" />
+
+        <label for="Message">Message:</label><br />
+        <textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+        <input type="submit" name="submit" value="Submit" class="submit-button" />
+      </form>
+
+      <div style="clear: both;"></div>
+
+      <p>Fill out this form so we can get back in touch with you.</p>
+
+    </div>
+
+    </article>
+
+</body>
+</html>

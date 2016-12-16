@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One');
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 2px solid #ffffff;
+	background: #33334d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #4d79ff;
+  font-family: 'Days One', bold;
+  font-size: 20px;
+	text-transform: uppercase;
+  padding: 20px;
+}
+
+
+#active {
+  background-color: #7575a3;
+}
+
+.menuText {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+.menu li {
+	display: inline-flex;;
+  float: left;
+}
+
+.title {
+  color: white;
+  font-size: 44px;
+}
+
+#normalNav
+{
+	list-style: none;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	color:white;
+
+}
+
+#myIcon
+{
+	display:none;
+}
+
+#menuLi {
+  float: right;
+}
+#loginMenu {
+  color: #4d79ff;
+}
+
+li:hover {
+  background-color: #5c5c8a;
+}
+
+.icon.open
+{
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	clear:left;
+}
+
+.icon.close
+{
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	float:left;
+}
+
+/* @media tags */
+
+@media print {
+	body { background: #33334d }
+}
+
+@media screen and (max-width: 640px)
+{
+  img {
+		height: 100%;
+		width: auto;
+	}
+  
+	.topnav
+	{
+		display:none;
+	}
+	.responsive
+	{
+		display:block;
+	}
+	#myIcon
+	{
+		display:inline-block;
+	}
+	.menuList
+	{
+		clear:left;
+		width:100%;
+	}
+}
+
+.form {
+  padding-top: 200px;
+  text-align: center;
+  padding-left: 600px;
+}
+
+#page-wrap {
+	width: 660px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
+#contact-area {
+	width: 600px;
+	margin-top: 25px;
+}
+
+#contact-area input, #contact-area textarea {
+	padding: 5px;
+	width: 471px;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+	border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+	height: 90px;
+}
+
+#contact-area textarea:focus, #contact-area input:focus {
+	border: 2px solid #900;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+}
+
+label {
+	float: left;
+	text-align: right;
+	margin-right: 15px;
+	width: 100px;
+	padding-top: 5px;
+	font-size: 1.4em;
+}

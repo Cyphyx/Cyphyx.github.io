@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One');
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 2px solid #ffffff;
+	background: #33334d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  background: url('https://electrek.files.wordpress.com/2016/06/home_hero_models-e1465956017150.jpg?quality=82&strip=all&w=1600');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	color: #333333;
+	text-shadow: 1px 1px rgba(88, 88, 88, 0.25);
+	text-align: center;
+	padding-top: 750px;
+	min-height: 100px;
+}
+section p{
+  margin-top: 50px;
+  color: white;
+  font-size: 24px;
+}
+section h2 {
+  margin-top: -100px;
+  color:white;
+  font-size: 40px;
+}
+
+.linkOrder {
+  text-decoration: none;
+  font-weight: bold;
+  color: #99ccff;
+}
+.menu a {
+	text-decoration: none;
+	color: #4d79ff;
+  font-family: 'Days One', bold;
+  font-size: 20px;
+	text-transform: uppercase;
+  padding: 20px;
+}
+
+
+#active {
+  background-color: #7575a3;
+}
+
+.menuText {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+.menu li {
+	display: inline-flex;;
+  float: left;
+}
+
+.title {
+  color: white;
+  font-size: 44px;
+}
+
+#normalNav
+{
+	list-style: none;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	color:white;
+
+}
+
+#myIcon
+{
+	display:none;
+}
+
+#menuLi {
+  float: right;
+}
+#loginMenu {
+  color: #4d79ff;
+}
+
+li:hover {
+  background-color: #5c5c8a;
+}
+
+.icon.open
+{
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	clear:left;
+}
+
+.icon.close
+{
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	float:left;
+}
+
+/* @media tags */
+
+@media print {
+	body { background: #33334d }
+}
+
+@media screen and (max-width: 640px)
+{
+  img {
+		height: 100%;
+		width: auto;
+	}
+  
+	.topnav
+	{
+		display:none;
+	}
+	.responsive
+	{
+		display:block;
+	}
+	#myIcon
+	{
+		display:inline-block;
+	}
+	.menuList
+	{
+		clear:left;
+		width:100%;
+	}
+}

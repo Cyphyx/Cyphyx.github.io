@@ -3,52 +3,60 @@
 
 <head>
   <meta name="author" content="Joshua Rhee">
-  <meta name="description" content="Cyphyx's Website">
-  <meta name="keywords" content="Cyphyx">
+  <meta name="description" content="themaweek 4 - Tesla Auto">
+  <meta name="keywords" content="themaweek 4">
 
-  <title> Cyphyx - Homepage </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" type="text/css" href="css/homepage.css">
+  <script>
+			function toggle() {
+				var x = document.getElementById("normalNav");
+				var t = document.getElementById("myIcon");
+				if (x.className === "topnav") {
+					x.className += " responsive";
+					t.className = "icon open";
+
+				} else {
+					x.className = "topnav";
+					t.className = "icon close";
+				}
+			}
+			</script>
+
+  <title>Tesla Model S - Home</title>
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
 </head>
 
 <body>
-  <ul class="menu">
-    <li><a href="index.html" class="menuText" id="active">Home</a></li>
-    <li><a href="about/about.html" class="menuText">About</a></li>
-    <li><a href="contact/contact.html" class="menuText">Contact</a></li>
-    <li><a href="rooster/rooster.html" class="menuText">Rooster</a></li>
-  </ul>
+
+  <nav>
+    <div class="icon close" id="myIcon">
+			<a href="#" onclick="toggle()">&#9776;</a>
+			</div>
+
+    <ul class="menu topnav" id="normalNav">
+      <li><a href="index.html" class="menuText" id="active">Home</a></li>
+      <li><a href="sites/about.html" class="menuText">About</a></li>
+      <li><a href="sites/contact.html" class="menuText">Contact</a></li>
+      <li><a href="sites/order.html" class="menuText">Buy</a></li>
+      <li id="menuLi"><a id="loginMenu loginform" href="sites/login.html">Login</a></li>
+    </ul>
+  </nav>
+
 
   <section class="header">
-    <h1 class="title">This website is for testing purposes only</h1>
-    <p id="botTitle"><a href="about/about.html">Click Me</a> for more info</p>
+    <h1 class="title">Tesla Model S</h1>
+    <button class="button" onclick="window.location.href='sites/order.html'" style="vertical-align:middle"><span>Buy Now </span></button>
   </section>
 
-  <article>
-
-<p class="topText">This is going to be a short story about how this is a page used for testing. </p>
-
-<p class="topText">That is probably also the reason why some <span id="colorText">colors</span> are applied to random pieces of <span id="italicText">text</span>.</p>
-
-<p class="topText">Please ignore all this text because it doesn't make any <span id="color2">sense</span>. Thank you for reading this and have a nice day.</p>
-
-<br><br><br>
-
-<p>What the fuck did you just fucking say about me, you little bitch? I'll have you know I graduated top of my class in the Navy Seals, and I've been involved in numerous secret raids on Al-Quaeda, and I have over 300 confirmed kills.</p>
-
-<p>I am trained in gorilla warfare and I'm the top sniper in the entire US armed forces. You are nothing to me but just another target. I will wipe you the fuck out with precision the likes of which has never been seen before on this Earth, mark my fucking words.</p>
-
-<p>You think you can get away with saying that shit to me over the Internet? Think again, fucker. As we speak I am contacting my secret network of spies across the USA and your IP is being traced right now so you better prepare for the storm, maggot.</p>
-
-<p>The storm that wipes out the pathetic little thing you call your life. You're fucking dead, kid. I can be anywhere, anytime, and I can kill you in over seven hundred ways, and that's just with my bare hands. Not only am I extensively trained in unarmed combat, but I have access to the entire arsenal of the United States Marine Corps and I will use it to its full extent to wipe your miserable ass off the face of the continent, you little shit.</p>
-
-<p>If only you could have known what unholy retribution your little "clever" comment was about to bring down upon you, maybe you would have held your fucking tongue. But you couldn't, you didn't, and now you're paying the price, you goddamn idiot. I will shit fury all over you and you will drown in it. You're fucking dead, kiddo.</p>
-
-<footer id="footer">
-  <h4>&copy; Made by Joshua Rhee</h4>
-</footer>
-
+<article id="articleText">
+    <h1 class="infoText"> Built around the driver</h1>
+    <p class="infoText"> Model S is a driver's car. The cabin combines meticulous noise engineering with Tesla's uniquely quiet powertrain to obtain the sound dynamics of a recording studio. The gem of the interior is the 17 inch touchscreen, which is angled toward the driver and includes both day and night modes for better visibility without distraction. It puts rich content at your fingertips and provides mobile connectivity so you can easily find your destination, favorite song or a new restaurant.
+    </p>
+    <img class="infoImg" src="https://www.tesla.com/sites/default/files/images/model-s/model-s-interior-with-next-generation-leather-seats.jpg?20161108"/>
 </article>
 
 </body>
+</html>

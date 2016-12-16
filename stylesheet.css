@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One');
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 2px solid #ffffff;
+	background: #33334d;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+#articleText {
+	text-decoration: none;
+	color: black;
+}
+
+.header {
+	margin-top: -150px;
+}
+
+.infoText {
+	text-align: center;
+	padding: 50px;
+}
+
+.infoImg {
+	width: 1800px;
+	height: 700px;
+	margin-left: 50px;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+p {
+	font-size: 30px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #7575a3;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+	margin: 50px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button a {
+  color: white;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #4d79ff;
+  font-family: 'Days One', bold;
+  font-size: 20px;
+	text-transform: uppercase;
+  padding: 20px;
+}
+
+
+#active {
+  background-color: #7575a3;
+}
+
+.menuText {
+  padding-top: 20px;
+  text-align: center;
+
+}
+
+.menu li {
+	display: inline-flex;;
+  float: left;
+}
+
+.title {
+  color: white;
+  font-size: 44px;
+}
+
+#normalNav
+{
+	list-style: none;
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+	color:white;
+
+}
+
+#myIcon
+{
+	display:none;
+}
+
+#menuLi {
+  float: right;
+}
+#loginMenu {
+  color: #4d79ff;
+}
+
+li:hover {
+  background-color: #5c5c8a;
+}
+
+section.header {
+	background: url('images/wallpaper.jpg');
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	color: #333333;
+	text-shadow: 1px 1px rgba(88, 88, 88, 0.25);
+	text-align: center;
+	padding-top: 750px;
+	min-height: 100px;
+}
+
+.icon a {
+	color: black;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.icon.open
+{
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	clear:left;
+}
+
+.icon.close
+{
+	-ms-transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);
+	transform: rotate(0deg);
+	float:left;
+}
+
+/* @media tags */
+
+@media print {
+	body { background: #33334d }
+}
+
+@media screen and (max-width: 640px)
+{
+	img {
+		height: 100%;
+		width: auto;
+	}
+	.topnav
+	{
+		display:none;
+	}
+	.responsive
+	{
+		display:block;
+	}
+	#myIcon
+	{
+		display:inline-block;
+	}
+	.menuList
+	{
+		clear:left;
+		width:100%;
+	}
+}
